@@ -7,10 +7,10 @@ const Header = () => {
       <div className="container mx-auto">
         <nav className="flex justify-between  text-white">
           <Link href="/" className="font-bold md:text-xl text-sm ">
-            Ravindra Tax{" "}
-            <span className="md:inline-block hidden">Advice & Preparation</span>
+            Ravindra Tax Advice{" "}
+            <span className="md:inline-block hidden"> & Preparation</span>
           </Link>
-          <Link href="tel:+91 9179158083">
+          <Link href="tel:+91 9179158083" className="font-serif">
             <span className="md:inline-block hidden">Questions? Call </span> 📞
             9179158083
           </Link>

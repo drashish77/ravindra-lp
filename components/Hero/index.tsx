@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row">
-      <div className="mb-5 lg:mb-0">
+      <div className="mb-5">
         <h1 className="lg:w-2/3 text-3xl font-bold capitalize">
           Get tax Advice to avoid mistakes that can cost you big
         </h1>
@@ -13,7 +13,7 @@ const HeroSection = () => {
           we provide
         </p>
 
-        <div className="relative pt-5">
+        <div className="relative pt-5 my-3">
           <a
             href="tel:+91 9179158083"
             className="group rounded-lg border border-transparent text-white  bg-orange-600 w-fit px-5 py-2"

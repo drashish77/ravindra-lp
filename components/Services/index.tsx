@@ -26,26 +26,29 @@ const Services = () => {
       </p>
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
-          <div className="w-full h-40 border  opacity-90 group hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">
+          <div className="w-full h-40 border  opacity-90 group hover:shadow-2xl ">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               COMPANY REGISTRATION
             </div>
             <MdBusiness className="text-6xl mx-auto mt-5" />
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               G.S.T. REGISTRATION
             </div>
-            <Image
-              src="/logo/gst.png"
-              className="mx-auto mt-5"
-              alt=""
-              width={80}
-              height={80}
-            ></Image>
+            <div className="relative w-50 h-50">
+              <Image
+                src="/logo/gst.png"
+                className="mx-auto mt-5 w-full contef"
+                alt=""
+                fill
+              ></Image>
+            </div>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">INCOME TAX FILLINS</div>
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
+              INCOME TAX FILLINS
+            </div>
             {/* <HiOutlineReceiptTax className="text-6xl mx-auto mt-5" /> */}
             <Image
               src="/logo/itr_logo.svg"
@@ -55,14 +58,16 @@ const Services = () => {
               height={100}
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               FOOD (FSSAI) REGISTRATION
             </div>
             <MdOutlineFastfood className="text-6xl mx-auto mt-5 " />
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">DSC REGISTRATION</div>
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
+              DSC REGISTRATION
+            </div>
             <Image
               src="/logo/dsc.jpeg"
               className="mx-auto mt-5"
@@ -71,8 +76,8 @@ const Services = () => {
               height={100}
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               EPFO/ESIC REGISTRATION
             </div>
             <Image
@@ -83,8 +88,8 @@ const Services = () => {
               className="mx-auto mt-5"
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               TRADE MARK REGISTRATION
             </div>
             <Image
@@ -95,8 +100,10 @@ const Services = () => {
               height={80}
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">LOAN</div>
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
+              LOAN
+            </div>
             <Image
               src="/logo/loan.webp"
               className="mx-auto mt-5"
@@ -105,8 +112,10 @@ const Services = () => {
               height={100}
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">TALLY ACCOUNTING</div>
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
+              TALLY ACCOUNTING
+            </div>
             <Image
               src="/logo/tally.png"
               className="mx-auto mt-5"
@@ -117,9 +126,9 @@ const Services = () => {
           </div>
           <div
             className="w-full h-40 border
-            opacity-90 hover:shadow-2xl"
+            opacity-90 hover:shadow-2xl group"
           >
-            <div className="text-center pt-3 font-bold">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               SHOP ACT REGISTRATION
             </div>
             <Image
@@ -130,8 +139,10 @@ const Services = () => {
               height={100}
             ></Image>
           </div>
-          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl">
-            <div className="text-center pt-3 font-bold">PF WITHDRAWL</div>
+          <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
+            <div className="text-center pt-3 font-bold group-hover:text-orange-500">
+              PF WITHDRAWL
+            </div>
             <Image
               src="/logo/pf.png"
               className="mx-auto mt-5"

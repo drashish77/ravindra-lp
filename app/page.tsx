@@ -8,7 +8,7 @@ export default function Home() {
       <div className="container mx-auto">
         <HeroSection />
       </div>{" "}
-      <div className="container mx-auto my-10">
+      <div className="container mx-auto my-14">
         <Services />
       </div>
     </main>
