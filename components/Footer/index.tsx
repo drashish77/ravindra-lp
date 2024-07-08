@@ -13,10 +13,12 @@ const Footer = () => {
                 className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
               >
                 <Image
-                  src="logo/logo.png"
-                  className="h-8"
+                  src="/logo/logo.png"
+                  className=""
+                  width={50}
+                  height={50}
                   alt="Flowbite Logo"
-                />
+                ></Image>
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                   Ravindra Tax Advice
                 </span>
