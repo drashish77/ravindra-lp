@@ -118,11 +118,11 @@ const Policy = () => {
               <strong>Website</strong> refers to Ravindra Tax Advice, accessible
               from{" "}
               <a
-                href="https://ravindraa.netlify.app/"
+                href="https://taxcares.in/"
                 rel="external nofollow noopener"
                 target="_blank"
               >
-                https://ravindraa.netlify.app/
+                https://taxcares.in/
               </a>
             </p>
           </li>
@@ -568,11 +568,11 @@ const Policy = () => {
           <li>
             By visiting this page on our website:{" "}
             <a
-              href="https://ravindraa.netlify.app/"
+              href="https://taxcares.in/"
               rel="external nofollow noopener"
               target="_blank"
             >
-              https://ravindraa.netlify.app/
+              https://taxcares.in/
             </a>
           </li>
         </ul>

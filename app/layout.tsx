@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Ravindra tax Advice & Preparation",
   description:
     "Maximize Your Refunds and Minimize Your Stress with Our Professional Tax Solutions",
-  openGraph: { images: "https://ravindraa.netlify.app/opengraph.png" },
+  openGraph: { images: "https://taxcares.in/opengraph.png" },
 };
 
 export default function RootLayout({
