@@ -121,8 +121,8 @@ const Services = () => {
               src="/logo/tally.png"
               className="mx-auto mt-5"
               alt="tally logo"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
             ></Image>
           </div>
           <div
