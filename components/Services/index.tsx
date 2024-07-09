@@ -36,12 +36,13 @@ const Services = () => {
             <div className="text-center pt-3 font-bold group-hover:text-orange-500">
               G.S.T. REGISTRATION
             </div>
-            <div className="relative w-50 h-50">
+            <div className="">
               <Image
                 src="/logo/gst.png"
-                className="mx-auto mt-5 w-full contef"
-                alt=""
-                fill
+                className="mx-auto mt-5"
+                alt="gst logo"
+                width={70}
+                height={70}
               ></Image>
             </div>
           </div>
@@ -53,7 +54,7 @@ const Services = () => {
             <Image
               src="/logo/itr_logo.svg"
               className="mx-auto mt-5"
-              alt=""
+              alt="irt logo"
               width={100}
               height={100}
             ></Image>
@@ -71,9 +72,9 @@ const Services = () => {
             <Image
               src="/logo/dsc.jpeg"
               className="mx-auto mt-5"
-              alt=""
-              width={100}
-              height={100}
+              alt="dsc logo"
+              width={150}
+              height={150}
             ></Image>
           </div>
           <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
@@ -82,7 +83,7 @@ const Services = () => {
             </div>
             <Image
               src="/logo/epfo.jpeg"
-              alt=""
+              alt="epfo logo"
               width={80}
               height={80}
               className="mx-auto mt-5"
@@ -95,7 +96,7 @@ const Services = () => {
             <Image
               src="/logo/trademark.jpeg"
               className="mx-auto mt-5"
-              alt=""
+              alt="rademark logo"
               width={80}
               height={80}
             ></Image>
@@ -107,9 +108,9 @@ const Services = () => {
             <Image
               src="/logo/loan.webp"
               className="mx-auto mt-5"
-              alt=""
-              width={100}
-              height={100}
+              alt="picture explaining loan"
+              width={150}
+              height={150}
             ></Image>
           </div>
           <div className="w-full h-40 border  opacity-90 hover:shadow-2xl group">
@@ -119,9 +120,9 @@ const Services = () => {
             <Image
               src="/logo/tally.png"
               className="mx-auto mt-5"
-              alt=""
-              width={100}
-              height={100}
+              alt="tally logo"
+              width={150}
+              height={150}
             ></Image>
           </div>
           <div
@@ -134,7 +135,7 @@ const Services = () => {
             <Image
               src="/logo/shop_act.png"
               className="mx-auto mt-5"
-              alt=""
+              alt="shop act logo"
               width={100}
               height={100}
             ></Image>
@@ -146,9 +147,9 @@ const Services = () => {
             <Image
               src="/logo/pf.png"
               className="mx-auto mt-5"
-              alt=""
-              width={100}
-              height={100}
+              alt="provident fund"
+              width={150}
+              height={150}
             ></Image>
           </div>
         </div>
