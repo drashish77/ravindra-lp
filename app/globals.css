@@ -42,3 +42,6 @@ body {
   background-color: #0f0f10;
   height: 85%;
 }
+.gallery-item {
+  margin: 5px;
+}

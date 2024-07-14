@@ -1,6 +1,7 @@
+import Faqs from "@/components/Faq";
 import HeroSection from "@/components/Hero";
 import Services from "@/components/Services";
-import Image from "next/image";
+import GalleryPage from "./gallery/page";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       </div>{" "}
       <div className="container mx-auto my-14">
         <Services />
-      </div>
+      </div>{" "}
     </main>
   );
 }
