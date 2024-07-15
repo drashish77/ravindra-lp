@@ -10,7 +10,9 @@ const ContactUS = () => {
               Contact Us
             </h2>
             <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-              Need details about our plans? Let us know.
+              Ready to take control of your finances? Contact me today for a
+              consultation and let’s start building a secure financial future
+              together.
             </p>
             <form action="#" className="space-y-8">
               <div>

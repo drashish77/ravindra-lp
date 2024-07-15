@@ -3,7 +3,7 @@ import React from "react";
 const Social = () => {
   return (
     <div>
-      <div className=" w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
+      <div className=" w-full h-auto pb-8 flex items-center justify-center gap-4 flex-wrap">
         <a
           href="https://www.facebook.com/taxcaress"
           target="_blank"
@@ -68,7 +68,7 @@ const Social = () => {
           </svg>
         </button>
 
-        <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+        {/* <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
             className="transition-all duration-300 group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ const Social = () => {
               fill="black"
             />
           </svg>
-        </button>
+        </button> */}
 
         <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
