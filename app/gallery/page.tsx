@@ -2,11 +2,10 @@
 
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-
 import { Gallery } from "react-grid-gallery";
-
 import { useState } from "react";
 import { images, CustomImage } from "./images";
+
 const GalleryPage = () => {
   const [index, setIndex] = useState(-1);
   const currentImage = images[index];
@@ -17,7 +16,6 @@ const GalleryPage = () => {
   const handleClose = () => setIndex(-1);
   const handleMovePrev = () => setIndex(prevIndex);
   const handleMoveNext = () => setIndex(nextIndex);
-
   const handleClick = (index: number, item: CustomImage) => setIndex(index);
 
   return (

@@ -19,12 +19,12 @@ const Services = () => {
         Maximize Your Refunds and Minimize Your Stress with Our Professional Tax
         Solutions
       </p> */}
-      <p className="my-5 text-center text-lg font-medium">
+      <p className="my-5 text-center text-lg font-medium w-2/3 mx-auto">
         Expert tax planning, filing, and advisory services to maximize your
         refunds and minimize liabilities. Trust our experienced team for
         accurate and efficient income tax solutions.
       </p>
-      <div className="">
+      <div className="mt-10 lg:mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
           <div className="w-full h-40 border  opacity-90 group hover:shadow-2xl ">
             <div className="text-center pt-3 font-bold group-hover:text-orange-500">

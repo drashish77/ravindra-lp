@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Social from "./Social";
 
 const Footer = () => {
   return (
@@ -47,6 +48,7 @@ const Footer = () => {
               </ul>
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <Social />
             <div className="flex justify-center flex-col md:flex-row items-center">
               <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
                 <span className="font-serif">© 2024</span>{" "}
