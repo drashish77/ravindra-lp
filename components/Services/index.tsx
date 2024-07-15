@@ -19,7 +19,7 @@ const Services = () => {
         Maximize Your Refunds and Minimize Your Stress with Our Professional Tax
         Solutions
       </p> */}
-      <p className="my-5 text-center text-lg font-medium w-2/3 mx-auto">
+      <p className="my-5 text-center text-lg font-medium lg:w-2/3 mx-auto">
         Expert tax planning, filing, and advisory services to maximize your
         refunds and minimize liabilities. Trust our experienced team for
         accurate and efficient income tax solutions.
