@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container mx-auto">
         <HeroSection />
       </div>{" "}
-      <div className="container mx-auto my-14">
+      <div className="container mx-auto  lg:mb-14">
         <AboutMe />
       </div>{" "}
       <div className="container mx-auto my-14">
