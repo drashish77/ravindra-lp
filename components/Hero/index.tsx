@@ -44,16 +44,16 @@ const HeroSection = () => {
             className="inline-flex justify-between items-center font-bold py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full   group hover:bg-orange-500 border border-orange-500"
             role="alert"
           >
-            <span className="text-xs lg:text-xl bg-primary-600 rounded-full text-orange-500 group-hover:text-white px-4 py-1.5 mr-3">
-              31<sup>st</sup> July{" "}
-              <span className="text-xs">
-                (Due<span className="hidden lg:inline"> date</span> )
-              </span>
+            <span className="text-xs lg:text-xl bg-primary-600 font-serif rounded-full text-orange-500 group-hover:text-white px-4 py-1.5 mr-3">
+              31 July <span className="text-xs">(Due date)</span>
             </span>
-            <span className="text-sm font-medium">
+            <span className="text-sm font-medium group-hover:text-white">
               <span className="hidden lg:inline">File Smart,</span> File early
             </span>
-            <svg
+            <span className="ml-2 inline-block transition-transform group-hover:text-white group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+            {/* <svg
               className="ml-2 w-5 h-5"
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                 clip-rule="evenodd"
               ></path>
-            </svg>
+            </svg> */}
           </a>
           <h2 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-orange-500 md:text-5xl lg:text-6xl ">
             Adv. Ravindra Gupta
