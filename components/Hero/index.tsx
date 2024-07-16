@@ -37,7 +37,7 @@ const HeroSection = () => {
     //   </div>
     // </div>
     <div>
-      <section className="h-screen ">
+      <section className="h-full lg:h-screen ">
         <div className="py-5 md:px-4 mx-auto max-w-screen-xl text-center  lg:px-12">
           <a
             href="tel:+91 9179158083"
